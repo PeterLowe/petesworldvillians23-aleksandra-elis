@@ -104,33 +104,6 @@ int main()
 			std::cout << "Cayman Islands, Cook Islands, Cuba" << std::endl;
 		}
 	}
-
-	if (letter == 'b' || letter == 'B')
-	{
-	if (region == 1)
-	{
-		std::cout << "Belize, Bermuda, Bolivia, Brazil" << std::endl;
-	}
-	if (region == 2)
-	{
-		std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria" << std::endl;
-	}
-	if (region == 3)
-	{
-		std::cout << "Benin, Botswana, Burkina Faso, Burundi" << std::endl;
-	}
-	if (region == 4)
-	{
-		std::cout << "Bangladesh, Bhutan, Brunei Darussalam" << std::endl;
-	}
-	if (region == 5)
-	{
-		std::cout << "Bahamas, Bahrain, Barbados" << std::endl;
-	}
-	}
-	if (letter == 'x' || letter == 'X')
-
-
 	if (letter == 's' || letter == 'S')
 	{
 		if (region == 1)
@@ -300,7 +273,6 @@ int main()
 		}
 
 	}
-	
 	
 	
 	return 1;
