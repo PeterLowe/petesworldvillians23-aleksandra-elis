@@ -78,6 +78,29 @@ int main()
 			std::cout << "Bahamas, Bahrain, Barbados" << std::endl;
 		}
 	}
+	if (letter == 's' || letter == 'S')
+	{
+		if (region == 1)
+		{
+			std::cout << "Suriname" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Slovakia" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Senegal" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "South Korea" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Solomon Islands" << std::endl;
+		}
+	}
 	if (letter == 't' || letter == 'T')
 	{
 		if (region == 1)
