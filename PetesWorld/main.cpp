@@ -78,6 +78,29 @@ int main()
 			std::cout << "Bahamas, Bahrain, Barbados" << std::endl;
 		}
 	}
+	if (letter == 'u' || letter == 'U')
+	{
+		if (region == 1)
+		{
+			std::cout << "United States" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "United Kingdom" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Uganda" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Uzbekistan" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Us in the rest of the world" << std::endl;
+		}
+	}
 	if (letter == 'v' || letter == 'V')
 	{
 		if (region == 1)
