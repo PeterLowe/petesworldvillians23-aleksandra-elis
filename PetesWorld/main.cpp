@@ -23,7 +23,7 @@ int main()
 		return 0;
 	}
 
-	std::cout << "Pick a letter from A to C or T to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to C or S to Z" << std::endl; // change this line each iteration
 
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -129,6 +129,31 @@ int main()
 	}
 	}
 	if (letter == 'x' || letter == 'X')
+
+
+	if (letter == 's' || letter == 'S')
+	{
+		if (region == 1)
+		{
+			std::cout << "Suriname" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Slovakia" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Senegal" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "South Korea" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Solomon Islands" << std::endl;
+		}
+	}
 
 	if (letter == 't' || letter == 'T')
 	{
