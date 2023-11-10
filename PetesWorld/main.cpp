@@ -104,6 +104,29 @@ int main()
 			std::cout << "Cayman Islands, Cook Islands, Cuba" << std::endl;
 		}
 	}
+	if (letter == 'd' || letter == 'D')
+	{
+		if (region == 1)
+		{
+			std::cout << "There is no Ds in America" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Denmark" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Djibouti" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There is no Ds in Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Dominica, Dominican Republic" << std::endl;
+		}
+	}
 	if (letter == 's' || letter == 'S')
 	{
 		if (region == 1)
