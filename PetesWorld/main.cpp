@@ -1,7 +1,7 @@
 // program to find countries in Pete's World
 // date 10 November 2023
 // author Pete Lowe
-// add your name here
+// Elisabeth Sykorova
 // Aleksandra Skarzycka
 // estimated time 120 minutes
 // actual time ??
