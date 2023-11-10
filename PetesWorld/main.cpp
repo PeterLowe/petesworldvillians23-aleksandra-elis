@@ -23,7 +23,7 @@ int main()
 		return 0;
 	}
 
-	std::cout << "Pick a letter from A to C or W to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to C or T to Z" << std::endl; // change this line each iteration
 
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -129,6 +129,76 @@ int main()
 	}
 	}
 	if (letter == 'x' || letter == 'X')
+
+	if (letter == 't' || letter == 'T')
+	{
+		if (region == 1)
+		{
+			std::cout << "Trinidad and Tobago" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Turkey" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Tanzania" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Thailand" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Tonga" << std::endl;
+		}
+	}
+	if (letter == 'u' || letter == 'U')
+	{
+		if (region == 1)
+		{
+			std::cout << "United States" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "United Kingdom" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Uganda" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Uzbekistan" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Us in the rest of the world" << std::endl;
+		}
+	}
+	if (letter == 'v' || letter == 'V')
+	{
+		if (region == 1)
+		{
+			std::cout << "Virgin Islands (U.S.) " << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Vatican City State (Holy See)" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no Vs in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Vietnam" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Vanuatu" << std::endl;
+		}
+	}
 
 	if (letter == 'w' || letter == 'W')
 
